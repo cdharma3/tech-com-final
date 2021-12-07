@@ -7,8 +7,9 @@
 
         <!-- Imports -->
         <link rel="stylesheet" href="./css/style.css">
-        <!-- Google material icons -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
 
         <title>Chicago Parking Tickets</title>
 
@@ -22,15 +23,15 @@
                 <ul class="navbar">
                     <!-- Example of regular items -->
                     <li class="navbar-item"><a href="index.html" id="active">Home</a></li>
-                    <li class="navbar-item"><a href="template.html">Template</a></li>
                     <li class="navbar-item">
                         <div class="dropdown-wrapper">
-                            <a class="dropdown-button" href="data.html">Data</a>
-
-                            <!-- Example of a drop down item -->
+                            <a class="dropdown-button" href="./template.html">The Appeals Process</a>
+    
+                            <!-- Dropdown item -->
                             <div class="dropdown-content">
                                 <ul class="navbar">
-                                    <li><a href="data.html#example1">Example Item 1</a></li>
+                                    <li><a href="./template.html#Firststeps">Getting Started</a></li>
+                                    <li><a href="./template.html#WhatToSay">What Do I Do?</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,13 +60,27 @@
           <a href="template.html">Template</a> page.
         </li>
        </ul>
-
        <h2>Data</h2>
-       <img src="img/top5_violations.png" alt="Top 5 Violations Ward 15">
-       <p>These are the top 5 violation types in ward 15</p>
+       <div class='grid-container'>
+            <div class='img_1'>
+                <img src="img/top5_violations.png" alt="A bar graph of the top 5 driving violations in the city of Chicago from 1996 to 2018">
+                <p>These are the top 5 violation types in ward 15</p>
+            </div>
 
-       <img src="img/appeal_success_rate.png" alt="Appeal Success Rates">
-       <p>These are the appeal success rates for the top 5 violation types. Only 4% of people contested their tickets, while 58% of them were successful.</p>
-
+            <div class='img_2' >
+                <img src="img/appeal_success_rate.png" alt="Bar graph of ticket appeal success rates in the city of Chicago from 1996 to 2017">
+                <p>These are the appeal success rates for the top 5 violation types.
+                Only 4% of people contested their tickets, while 58% of them were successful.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>
+                Data sourced from the <a href='https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/challenging_tickets.html'
+                target='_blank'>City of Chicago by ProPublica</a>
+            </p>
+        </footer>
     </body>
+
+    
 </html>
