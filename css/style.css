@@ -61,6 +61,12 @@ address {
     text-transform: uppercase;
 }
 
+.img {
+    float: center;
+    margin-left: 28px;
+    text-align: center;
+}
+
 ul {
     margin-top: 8px;
 }
