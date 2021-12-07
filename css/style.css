@@ -158,16 +158,32 @@ li {
     grid-column-gap: 15px;
 }
 
-.grid-container .img_1 {
-    text-align: center;
-    grid-column: 1 / 3;
-    grid-row: 0;
+.grid-container .OurMission {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.grid-container .FirstSteps {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.grid-container .img {
+    grid-column: 1 / 2;
+    grid-row: 2;
 }
 
 .grid-container .img_2 {
     text-align: center;
     grid-column: 1 / 3;
+    grid-row: 0;
+}
+
+.grid-container .img_1 {
+    text-align: center;
+    grid-column: 1 / 3;
     grid-row: 1;
+    margin-bottom: 28px;
 }
 
 /* Contact footer */
